@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.navLogo h1 a{
+display: inline;
+color: #fff;
+text-align: center;
+padding:10px;
+text-decoration:none;   
+}
+.navBar li{
+    display:inline;
+    margin:10px; 
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.heroSection{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heroSection h1{
+    font-family: "Arsenal SC", serif;
+    font-size: 12vh;
+}
+.heroSection h2{
+    font-size: 5vh;
+}
+.heroSection p{
+    font-family: "Arsenal SC", serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe {
+    text-align: center;
+    background-color: rgb(72, 67, 67);
+    height: 110vh;
+}
+.aboutMe h1{
+    padding-top: 50px;
+    color: #fff;
+    font-size: 30px;
+}
+.aboutContainer{
+    padding: 50px;
+    align-items: center;  
+}
+.aboutInfo{
+   display: flex;
+   justify-content: center;
+   gap: 50px; 
+}
+.aboutContent{
+    background-color: #fff;
+    width: 60vh;
+    height: 70vh;
+    text-align: center;
+    border-radius: 2vh;
+    overflow: hidden;
+}
+.aboutContent h2{
+    margin: 20px;
+}
+.aboutContent p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 50px;
+}
+.aboutImg img{
+    height: 70vh;
+    width: auto;
+    border-radius: 2vh;
+}
+.work{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height: 110vh;
+}
+.work h1{
+    color: #fff;
+    font-size: 30px;
+    padding: 50px; 
+}
+.workContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+.workContainer img{
+    width: 100%;
+}
+.workCards {
+    width: 40vh;
+    height: 70vh;
+    background-color: rgb(244, 244, 244);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+footer{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footerElement ul{
+    list-style-type: none;
+}  
+.footerContainer{
+    display: flex;
+    background-color: rgb(215, 119, 0);
+    padding: 10vh 20vh;
+    border-radius: 50px;
+    gap: 40vh;
+    text-align: center;
+}
+.footerElement h3{
+    font-size: 20px;
+}
+.socialMedia a{
+    display: list-item;
+}
